@@ -1,0 +1,388 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+body{
+   overflow-x: hidden;
+}
+
+.header-bacground img{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+
+}
+.nav-section{
+    position: relative;
+}
+.header-section{
+position: relative;
+}
+.header-contain{
+    margin-top: 150px;
+}
+.header-contain p{
+    width: 500px;
+    text-align: justify;
+    color:#fdffff;
+}
+.p-font-color{
+    color: #e5ff00;
+}
+.menu-text-style{
+    font-weight: 700;
+}
+.bacground-image{
+    width: 100%;
+    position: absolute;
+
+}
+
+/* all @nedia style */
+
+@media(max-width: 850px) { 
+  #services-section-2{
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+}
+  @media screen and (max-width: 850px) { 
+    .bacground-image{
+      width: 100%;
+      height: 800px;
+      background:linear-gradient(70deg, red, #15ff00);
+    }
+  .bacground-image img{
+    width: 100%;
+    height: 500px;
+    display: none;
+  } 
+  .header-contain h1{
+    font-size: 20px;
+  }
+  .header-contain p{
+    width: 99%;
+    font-size: 15px;
+    color: black;
+  }
+  .header-img{
+    width: 100%;
+    height: auto;
+  }
+  .bacground-image-2 img{
+    width: 100%;
+    height: auto;
+  }
+  .about-image img{
+    width: 100%;
+    height: auto;
+  }
+  .about-contain h5{
+    font-size: 15px;
+  }
+  .about-contain h2{
+    font-size: 20px;
+  }
+  .about-contain h6{
+    font-size: 12px;
+  }
+  .about-contain p{
+    font-size: 15px;
+  }
+
+} 
+
+
+
+/* this line is about style */
+.about-section{
+  margin: 80px 0;
+}
+.about-image img{
+  border-radius: 10px;
+  box-shadow: 0px 1px 20px 5px grey;
+}
+.about-contain{
+  margin-top: 40px;
+}
+.about-contain h5{
+  background-color: lawngreen;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+}
+.about-contain h4 span{
+  color:orangered;
+}
+.about-contain h4, h6{
+  margin: 15px 0;
+}
+.about-contain h6{
+ text-align: justify;
+}
+.bacground-image-2{
+  width: 100%;
+position: absolute;
+  margin-top: 215px;
+}
+
+
+
+
+
+
+/* This line is card style */
+.services-contain{
+  width: 100%;
+  display: grid;
+  justify-content: center;
+ 
+}
+.services-contain h3{
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  z-index: 1;
+  background-color: lawngreen;
+  border-radius: 5px;
+  padding: 10px;
+  
+}
+.services-section{
+  margin-top:400px;
+}
+#services-containera{
+  margin-top: 45px;
+}
+.containera{
+  display: grid;
+  flex-wrap:wrap;
+  justify-content:center;
+  margin-right: 10px;
+  position: relative;
+}
+
+
+.containera .box
+{
+  position:relative;
+  width: 300px;
+  height: 350px;
+  padding: 40px;
+  background: linear-gradient(to bottom,#a5b0ff,#ff7bb9);
+  box-shadow:0 15px 25px rgba(0,0,0,.1);
+  border-radius:15px;
+  
+  box-sizing:border-box;
+  overflow:hidden;
+  text-align: center; 
+}
+
+.containera .box:before
+{
+  content:'';
+  width: 50%;
+  height: 100%;
+  position:absolute;
+  top:0;
+  left:0;
+  background:rgba(255,255,255,.2);
+  z-index:2;
+  pointer-events:none;
+  text-align: center;
+}
+
+.containera .box .icon {
+  position:relative;
+  width: 80px;
+  height: 80px;
+  color:#fff;
+  background:#FF1493;
+  display:flex;
+  justify-content: center;
+  margin:10px auto;
+  border-radius:20%;
+  font-size: 50px;
+  font-weight:normal;
+  transition:2s;
+  padding:10px;
+}
+.containera .box .icon i{
+  padding:8px;
+
+}
+
+.containera .box .icon
+{
+  box-shadow:0 0 0 0 #76D7C4;
+}
+.containera .box:hover .icon
+{
+  
+ box-shadow:0 0 0 400px #76D7C4;
+}
+
+
+
+.containera .box .content
+{
+  position:relative;
+  z-index:1;
+  transition:1.5s;
+}
+.containera .box:hover .content{
+  color:orangered;
+}
+.containera .box .content h3
+{
+  font-size: 20px;
+  margin:10px 0;
+  padding:0;
+  text-align: center;
+}
+.containera .box .content p{
+   margin:0;
+  padding:0;
+  text-align: center;
+}
+.service-area-a
+{
+  display:inline-block;
+  padding:10px 25px;
+  background:#fff;
+  border-radius:10px;
+  text-decoration:none;
+  color:#000;
+  font-weight:500;
+  margin-top:20px;
+  box-shadow: 5px 2px 5px rgba(0,0,0,.2);
+  border: 1px solid green;
+  
+}
+
+
+
+
+
+/* This line is carusal
+.contain {
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 523px;
+  display: inline-grid;
+  border-bottom: 4px solid #FE5E41;
+}
+
+.container-carucal {
+  margin-top: 300px;
+  margin-left: 45px;
+  left: calc(50% - 300px);
+  display: flex;
+}
+
+.card {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  background-color: #17141d;
+  border-radius: 10px;
+  box-shadow: -0.1rem 0 4rem #000;
+  transition: 0.4s ease-out;
+  position: relative;
+  left: 0px;
+}
+
+.card:not(:first-child) {
+    margin-left: -50px;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+}
+
+.card:hover ~ .card {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
+
+.title {
+  color: white;
+  font-weight: 300;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+.bar {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  height: 5px;
+  width: 150px;
+}
+
+.emptybar {
+  background-color: #2e3033;
+  width: 260px;
+  height: 100%;
+}
+
+.filledbar {
+  position: absolute;
+  top: 0px;
+  z-index: 3;
+  width: 0px;
+  height: 100%;
+  background: rgb(0,154,217);
+  background: linear-gradient(90deg, rgba(0,154,217,1) 0%, rgba(217,147,0,1) 65%, rgba(255,186,0,1) 100%);
+  transition: 0.6s ease-out;
+}
+
+.card:hover .filledbar {
+  width: 210px;
+  transition: 0.4s ease-out;
+}
+
+.circle {
+  position: absolute;
+  top: 150px;
+  left: calc(50% - 60px);
+}
+
+.stroke {
+  stroke: white;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 360;
+  transition: 0.6s ease-out;
+}
+
+svg {
+  fill: #17141d;
+  stroke-width: 2px;
+  
+} 
+svg img{
+  position: absolute;
+}
+.card:hover .stroke {
+  stroke-dashoffset: 100;
+  transition: 0.6s ease-out;
+}*/
+
+/* This line is how it work bar style */
+.bacground-image-3 {
+  width: 100%;
+  display: grid;
+  justify-content: right;
+  margin-top: 210px;
+  position: absolute;
+}
+.how-it-work p{
+  width: 400px;
+}
+.how-it-work h1{
+ margin-top: 350px;
+} 
