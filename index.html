@@ -62,7 +62,7 @@
       <div class="row">
           <div class="col-md-7 header-contain">
               <h1>HI I'M <span class="p-font-color"> MD SAJID RAHMAN</span></h1>
-              <P> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum officiis laudantium voluptas, dolorem a quaerat minima dolores odio eligendi aperiam?</P>
+              <P id="p-color"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum officiis laudantium voluptas, dolorem a quaerat minima dolores odio eligendi aperiam?</P>
               <button class="btn btn-primary">Hire Me</button>
           </div>
           <div class="col-md-4">
@@ -80,16 +80,16 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <div class="about-image">
+        <div id="about-image-id" class="about-image">
             <img src="images/about/about-photo1.png" alt="">
         </div>
       </div>
         <div class="col-md-6 about-contain">
             <h5>About Me</h5>
             <h4>Hi I'M <span> Md Sajidur Rahman</span></h4>
-            <h2>Why hire me for your project?</h2>
-            <h6>I'm Creative Director and Wed Developer and Designer, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.</h6>
-            <p>My job is to build your website so that it is functional and user-friendly but at the same time attractive. I add a personal touch to your product and make sure that it is eye-catching and easy to use. My aim is to bring across your message and identity in the best creative way.</p>
+            <h2 id="p-color">Why hire me for your project?</h2>
+            <h6 id="p-color">I'm Creative Director and Wed Developer and Designer, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.</h6>
+            <p id="p-color">My job is to build your website so that it is functional and user-friendly but at the same time attractive. I add a personal touch to your product and make sure that it is eye-catching and easy to use. My aim is to bring across your message and identity in the best creative way.</p>
             <button class="btn btn-primary">Download CV</button>
         </div>
     </div>
@@ -101,6 +101,9 @@
 <!-- This is card section -->
 
 <section id="services-section-2" class="services-section">
+  <div class="bacground-card-img">
+    <img src="images/background/bacground-5.png" alt="">
+  </div>
   <div class="services-contain">
     <h3>Services</h3>
   </div>
@@ -187,54 +190,107 @@
 
 <!-- progress bar section -->
 
-<section>
+<section class="progress-section">
+<div id="bacground-5" class="bacground-5-div">
+  <img src="images/background/Untitled-1.png" alt="">
+</div>
   <div class="container">
-    <div class="wrapper">
-    <div class="skills-area">
-      <div class="single-skill">
-        <div class="circlechart" data-percentage="-20">HTML</div>
-      </div>
-      <div class="single-skill">
-        <div class="circlechart" data-percentage="50"> CSS</div>
-      </div>
-      <div class="single-skill">
-        <div class="circlechart" data-percentage="50"> Javascript</div>
-      </div>
+    <div class="services-contain">
+      <h3>My Skills</h3>
     </div>
-  </div>
+      <div id="progress-car-id" class="progress-car"> 
+        <div class="card">
+              <div class="box">
+                <div class="percent">
+                  <svg>
+                      <circle cx="70" cy="70" r="70"></circle>
+                      <circle cx="70" cy="70" r="70"></circle>
+                  </svg>
+                  <div class="number">
+                    <h2>90<span>%</span></h2>
+                  </div>
+                </div>
+                <h2 class="text">HTML</h2>
+              </div>
+            </div>
+
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+              </svg>
+              <div class="number">
+                <h2>85<span>%</span></h2>
+              </div>
+            </div>
+            <h2 class="text">CSS</h2>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+              </svg>
+              <div class="number">
+                <h2>80<span>%</span></h2>
+              </div>
+            </div>
+            <h2 class="text">Bootstrap</h2>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                  <circle class="circle-1" cx="70" cy="70" r="70"></circle>
+                  <circle  class="circle-2" cx="70" cy="70" r="70"></circle>
+              </svg>
+              <div class="number">
+                <h2>75<span>%</span></h2>
+              </div>
+            </div>
+            <h2 class="text">Javascript</h2>
+          </div>
+        </div>
+    </div>
   </div>
 </section>
 
-  <!-- <section>
+ <section>
     <div class="bacground-image-3">
       <img src="images/background/bacground-3.png" alt="">
     </div>
     <div class="row">
-      <div class="col-md-6">
-
+      <div class="col-md-8">
+        <div class="how-it-work-contain-1">
+          
+        </div>
       </div>
-      <div class="col-md-6 how-it-work">
+      <div class="col-md-4">
+        <div class="how-it-work-contain-2">
         <h1>How it Works</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quaerat?</p>
         <h6>Lorem ipsum dolor sit amet.</h6>
         <button class="btn btn-primary">Hire me</button>
       </div>
+      </div>
     </div>
-  </section> -->
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="js/progresscircle.js"></script>
+  </section> 
+  <!-- This is Footer section  -->
+  <footer>
+    <div class="footer-bacground">
+      
+    </div>
+  </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
-    
-    <script>
-      $(function(){
-
-        $('.circlechart').circlechart();
-
-      });
-    </script>
  </body>
 </html>
